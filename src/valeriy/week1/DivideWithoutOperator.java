@@ -1,11 +1,21 @@
 package valeriy.week1;
 
 public class DivideWithoutOperator {
+    public static void main(String[] args) {
+        System.out.println(divideWoDivision(14,2));
+    }
 
 
-    public static double divideWoDivision(double num1, double num2){
-        return num1%num2;
-    } // this is the most primitive way of solving the task but when I googled how to do it, it was showing me the methods that I more exact what this task requires but far from my level of coding. Unfortunately
+
+    public static int divideWoDivision(int num1, int num2){
+      int count=0;
+        while(num1>=num2){
+            num1=num1-num2;
+            count++;
+        }
+
+        return count;
+    }
 
 }
 //Write a method that can divide two numbers without using division operator
