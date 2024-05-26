@@ -2,24 +2,24 @@ package tahmina.week1;
 
 public class FINRA {
 
-    public static void main(String[] args) {
-        int n = 20;
-        int number = 1;
-
-        for (int number = 1; number <= n; number++) {
-            if (number % 3 == 0 && number % 5 == 0) {
-                System.out.print("FINRA ");
-            } else if (number % 3 == 0) {
-                System.out.print("FIN ");
-            } else if (number % 5 == 0) {
-                System.out.print("RA ");
+    public static void printFINRA() {
+        for (int i = 1; i <= 30; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FINRA");
+            } else if (i % 3 == 0) {
+                System.out.println("FIN");
+            } else if (i % 5 == 0) {
+                System.out.println("RA");
             } else {
-                System.out.print(number + " ");
+                System.out.println(i);
             }
         }
     }
-}
 
+    public static void main(String[] args) {
+        printFINRA();
+    }
+}
 
 
 //FINRA :Write a method which prints out the numbers from 1 to 30 but for numbers which
