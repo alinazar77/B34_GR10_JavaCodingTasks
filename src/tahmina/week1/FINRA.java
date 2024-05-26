@@ -13,7 +13,7 @@ public class FINRA {
             } else if (number % 3 == 0) {
                 System.out.print("FIN ");
             } else if (number % 5 == 0) {
-                System.out.print("RA ");
+                System.out.print("AR ");
             } else {
                 System.out.print(number + " ");
             }
