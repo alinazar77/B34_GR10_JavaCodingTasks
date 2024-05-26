@@ -3,12 +3,10 @@ package tahmina.week1;
 public class FINRA {
 
     public static void main(String[] args) {
-
-    }
-
         int n = 20;
         int number = 1;
 
+        for (int number = 1; number <= n; number++) {
             if (number % 3 == 0 && number % 5 == 0) {
                 System.out.print("FINRA ");
             } else if (number % 3 == 0) {
@@ -18,9 +16,9 @@ public class FINRA {
             } else {
                 System.out.print(number + " ");
             }
+        }
+    }
 }
-
-
 
 
 
