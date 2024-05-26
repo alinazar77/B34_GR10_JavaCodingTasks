@@ -7,21 +7,15 @@ public class DivideWithoutOperator {
         int num1=10;
         int num2=2;
     }
-        public static int DivideWithoutOperator(int num1, int num2){
-            int count = 0;
-            while (num1 >= num2) {
-                num1 = num1 - num2;
-                count++;
-
-            }
-            return count;
-        }
+tahmina
+    public static int DivideWithoutOperator(int num1, int num2){
+        int count = 0;
+        while (num1 >= num2) {
+            num1 = num1 - num2;
+            count++;
 
         }
+        return count;
+    }
 
-
-
-
-
-
-    //Write a method that can divide two numbers without using division operator
+        }
