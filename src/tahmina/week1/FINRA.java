@@ -1,6 +1,9 @@
 package tahmina.week1;
 
 public class FINRA {
+    public static void main(String[] args) {
+        printFINRA();
+    }
 
     public static void printFINRA() {
         for (int i = 1; i <= 30; i++) {
@@ -16,9 +19,6 @@ public class FINRA {
         }
     }
 
-    public static void main(String[] args) {
-        printFINRA();
-    }
 }
 
 
