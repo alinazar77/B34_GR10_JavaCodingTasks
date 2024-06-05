@@ -6,8 +6,8 @@ public class Number_SwapTwoNumbers {
 
         //Swap two variables' values without using a third variable
 
-        int a = 10;
-        int b = 20;
+        int a = 20;
+        int b = 30;
 
         System.out.println("Before swapping:");
         System.out.println("a = " + a);
